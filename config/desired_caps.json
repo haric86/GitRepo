@@ -1,0 +1,20 @@
+{
+  "ports": {
+    "4723": {
+      "desired_caps": {
+        "platformName": "Android",
+        "platformVersion": "6.0.1",
+        "deviceName": "Google Nexus 5",
+        "appPackage": "com.ebay.mobile",
+        "appActivity": "com.ebay.mobile.activities.MainActivity",
+        "appWaitPackage": "com.ebay.mobile",
+        "appWaitDuration": 30000,
+        "noReset": "true",
+        "fullReset": "false",
+        "newCommandTimeout": 900,
+        "udid": "0689fcced0b3613d"
+      },
+      "log_dir": null
+    }
+  }
+}
