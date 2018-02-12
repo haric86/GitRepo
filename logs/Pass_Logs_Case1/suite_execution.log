@@ -1,0 +1,267 @@
+2018-02-09 22:31:22,309 -     INFO -           suite  - *** Executing testSwipeActions ***
+2018-02-09 22:31:22,309 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:31:25,665 -     INFO -           suite  - Swipe Bottom-To-Top
+2018-02-09 22:31:28,994 -     INFO -           suite  - Swipe Left-to-Right
+2018-02-09 22:31:32,442 -     INFO -           suite  - Swipe Right-to-Left
+2018-02-09 22:31:33,864 -     INFO -           suite  - *** Executing testSwipeActions completed ***
+2018-02-09 22:31:33,864 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:31:56,964 -     INFO -           suite  - *** Executing test_login ***
+2018-02-09 22:31:56,964 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:31:57,496 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:31:57,496 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:31:58,668 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:32:03,435 -     INFO -           suite  - *** Executing test_login completed ***
+2018-02-09 22:32:03,451 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:32:08,261 -     INFO -      core.shell  - 2018-02-09 22:31:22,309 -       INFO - *** Executing testSwipeActions ***
+2018-02-09 22:31:22,309 -       INFO - Swipe Top-to-Bottom
+2018-02-09 22:31:25,665 -       INFO - Swipe Bottom-To-Top
+2018-02-09 22:31:28,994 -       INFO - Swipe Left-to-Right
+2018-02-09 22:31:32,442 -       INFO - Swipe Right-to-Left
+2018-02-09 22:31:33,864 -       INFO - *** Executing testSwipeActions completed ***
+2018-02-09 22:31:33,864 -       INFO - --------------------------------------------------
+2018-02-09 22:31:56,964 -       INFO - *** Executing test_login ***
+2018-02-09 22:31:56,964 -       INFO - Open Main navigation
+2018-02-09 22:31:57,496 -       INFO - Opened Main navigation
+2018-02-09 22:31:57,496 -       INFO - Open SIGN IN page
+2018-02-09 22:31:58,668 -       INFO - Opened SIGN IN page
+2018-02-09 22:32:03,435 -       INFO - *** Executing test_login completed ***
+2018-02-09 22:32:03,451 -       INFO - --------------------------------------------------
+
+2018-02-09 22:32:08,261 -    ERROR -      core.shell  - 
+Running tests... 
+----------------------------------------------------------------------
+ testSwipeActions (__main__.DemoTest) ... OK (36.790393)s
+ test_login (__main__.DemoTest) ... OK (29.806202)s
+
+----------------------------------------------------------------------
+Ran 2 tests in 0:01:06
+
+OK
+
+
+
+Generating HTML reports... 
+
+2018-02-09 22:33:24,051 -    DEBUG -      core.shell  - ***Run: C:\Python36\python.exe C:\AppTestFramework\testsuites\test_demo.py --port 4723
+2018-02-09 22:33:25,895 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:33:43,851 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:45,867 -     INFO -           suite  - *** Executing test001_login ***
+2018-02-09 22:33:45,867 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:33:45,867 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/71677e41-0227-4ea8-94d8-3be6eb3b6db2/element {"using": "accessibility id", "value": "Main navigation, open", "sessionId": "71677e41-0227-4ea8-94d8-3be6eb3b6db2"}
+2018-02-09 22:33:45,945 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:45,945 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/71677e41-0227-4ea8-94d8-3be6eb3b6db2/element/1/click {"id": "1", "sessionId": "71677e41-0227-4ea8-94d8-3be6eb3b6db2"}
+2018-02-09 22:33:46,148 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:46,148 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:33:46,148 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:33:46,148 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/71677e41-0227-4ea8-94d8-3be6eb3b6db2/element {"using": "accessibility id", "value": "Sign in,double tap to activate", "sessionId": "71677e41-0227-4ea8-94d8-3be6eb3b6db2"}
+2018-02-09 22:33:47,101 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:47,101 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/71677e41-0227-4ea8-94d8-3be6eb3b6db2/element/2/click {"id": "2", "sessionId": "71677e41-0227-4ea8-94d8-3be6eb3b6db2"}
+2018-02-09 22:33:47,304 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:47,304 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:33:47,304 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text haritheharbinder@gmail.com
+2018-02-09 22:33:48,695 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_TAB
+2018-02-09 22:33:49,945 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text ha@WL223823
+2018-02-09 22:33:51,101 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-09 22:33:52,289 -     INFO -           suite  - *** Executing test001_login completed ***
+2018-02-09 22:33:52,289 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:33:52,305 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/71677e41-0227-4ea8-94d8-3be6eb3b6db2 {"sessionId": "71677e41-0227-4ea8-94d8-3be6eb3b6db2"}
+2018-02-09 22:33:56,738 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:33:56,784 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:34:15,297 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:34:17,313 -     INFO -           suite  - *** Executing test002_SwipeActions ***
+2018-02-09 22:34:17,313 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:34:17,313 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 700 500 1200
+2018-02-09 22:34:20,848 -     INFO -           suite  - Swipe Bottom-To-Top
+2018-02-09 22:34:20,848 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-09 22:34:24,379 -     INFO -           suite  - Swipe Left-to-Right
+2018-02-09 22:34:24,379 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 100 100 800 100
+2018-02-09 22:34:28,130 -     INFO -           suite  - Swipe Right-to-Left
+2018-02-09 22:34:28,130 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 800 100 100 100
+2018-02-09 22:34:29,794 -     INFO -           suite  - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:34:29,794 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:34:29,794 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/9f85be2c-e7c7-42bf-a78f-fe20d57f907c {"sessionId": "9f85be2c-e7c7-42bf-a78f-fe20d57f907c"}
+2018-02-09 22:34:35,094 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:34:35,188 -     INFO -      core.shell  - 2018-02-09 22:33:45,867 -       INFO - *** Executing test001_login ***
+2018-02-09 22:33:45,867 -       INFO - Open Main navigation
+2018-02-09 22:33:46,148 -       INFO - Opened Main navigation
+2018-02-09 22:33:46,148 -       INFO - Open SIGN IN page
+2018-02-09 22:33:47,304 -       INFO - Opened SIGN IN page
+2018-02-09 22:33:52,289 -       INFO - *** Executing test001_login completed ***
+2018-02-09 22:33:52,289 -       INFO - --------------------------------------------------
+2018-02-09 22:34:17,313 -       INFO - *** Executing test002_SwipeActions ***
+2018-02-09 22:34:17,313 -       INFO - Swipe Top-to-Bottom
+2018-02-09 22:34:20,848 -       INFO - Swipe Bottom-To-Top
+2018-02-09 22:34:24,379 -       INFO - Swipe Left-to-Right
+2018-02-09 22:34:28,130 -       INFO - Swipe Right-to-Left
+2018-02-09 22:34:29,794 -       INFO - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:34:29,794 -       INFO - --------------------------------------------------
+
+2018-02-09 22:34:35,203 -    ERROR -      core.shell  - 
+Running tests... 
+----------------------------------------------------------------------
+ test001_login (__main__.DemoTest) ... OK (30.873834)s
+ test002_SwipeActions (__main__.DemoTest) ... OK (38.356233)s
+
+----------------------------------------------------------------------
+Ran 2 tests in 0:01:09
+
+OK
+
+
+
+Generating HTML reports... 
+
+2018-02-09 22:38:04,785 -     INFO -      core.shell  - ***Run: C:\Python36\python.exe C:\AppTestFramework\testsuites\test_demo.py --port 4723
+2018-02-09 22:38:06,816 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:38:23,967 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:25,967 -     INFO -           suite  - *** Executing test001_login ***
+2018-02-09 22:38:25,967 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:38:25,967 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c96843b9-3d9e-4800-80af-6e2fc707fd37/element {"using": "accessibility id", "value": "Main navigation, open", "sessionId": "c96843b9-3d9e-4800-80af-6e2fc707fd37"}
+2018-02-09 22:38:26,077 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:26,077 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c96843b9-3d9e-4800-80af-6e2fc707fd37/element/1/click {"id": "1", "sessionId": "c96843b9-3d9e-4800-80af-6e2fc707fd37"}
+2018-02-09 22:38:26,436 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:26,436 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:38:26,436 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:38:26,436 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c96843b9-3d9e-4800-80af-6e2fc707fd37/element {"using": "accessibility id", "value": "Sign in,double tap to activate", "sessionId": "c96843b9-3d9e-4800-80af-6e2fc707fd37"}
+2018-02-09 22:38:27,233 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:27,233 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c96843b9-3d9e-4800-80af-6e2fc707fd37/element/2/click {"id": "2", "sessionId": "c96843b9-3d9e-4800-80af-6e2fc707fd37"}
+2018-02-09 22:38:27,546 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:27,546 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:38:27,546 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text haritheharbinder@gmail.com
+2018-02-09 22:38:30,389 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_TAB
+2018-02-09 22:38:32,640 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text ha@WL223823
+2018-02-09 22:38:34,734 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-09 22:38:36,856 -     INFO -           suite  - *** Executing test001_login completed ***
+2018-02-09 22:38:36,856 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:38:36,856 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/c96843b9-3d9e-4800-80af-6e2fc707fd37 {"sessionId": "c96843b9-3d9e-4800-80af-6e2fc707fd37"}
+2018-02-09 22:38:40,781 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:38:40,813 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:39:02,293 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:39:04,304 -     INFO -           suite  - *** Executing test002_SwipeActions ***
+2018-02-09 22:39:04,304 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:39:04,304 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 700 500 1200
+2018-02-09 22:39:08,289 -     INFO -           suite  - Swipe Bottom-To-Top
+2018-02-09 22:39:08,289 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-09 22:39:12,265 -     INFO -           suite  - Swipe Left-to-Right
+2018-02-09 22:39:12,265 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 100 100 800 100
+2018-02-09 22:39:16,158 -     INFO -           suite  - Swipe Right-to-Left
+2018-02-09 22:39:16,158 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 800 100 100 100
+2018-02-09 22:39:18,065 -     INFO -           suite  - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:39:18,065 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:39:18,065 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/ccdcc8ff-79f9-43fd-a547-730b0d67ac40 {"sessionId": "ccdcc8ff-79f9-43fd-a547-730b0d67ac40"}
+2018-02-09 22:39:24,107 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:39:24,232 -     INFO -      core.shell  - 2018-02-09 22:38:25,967 -       INFO - *** Executing test001_login ***
+2018-02-09 22:38:25,967 -       INFO - Open Main navigation
+2018-02-09 22:38:26,436 -       INFO - Opened Main navigation
+2018-02-09 22:38:26,436 -       INFO - Open SIGN IN page
+2018-02-09 22:38:27,546 -       INFO - Opened SIGN IN page
+2018-02-09 22:38:27,546 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text haritheharbinder@gmail.com
+2018-02-09 22:38:30,389 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_TAB
+2018-02-09 22:38:32,640 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text ha@WL223823
+2018-02-09 22:38:34,734 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-09 22:38:36,856 -       INFO - *** Executing test001_login completed ***
+2018-02-09 22:38:36,856 -       INFO - --------------------------------------------------
+2018-02-09 22:39:04,304 -       INFO - *** Executing test002_SwipeActions ***
+2018-02-09 22:39:04,304 -       INFO - Swipe Top-to-Bottom
+2018-02-09 22:39:04,304 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 700 500 1200
+2018-02-09 22:39:08,289 -       INFO - Swipe Bottom-To-Top
+2018-02-09 22:39:08,289 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-09 22:39:12,265 -       INFO - Swipe Left-to-Right
+2018-02-09 22:39:12,265 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 100 100 800 100
+2018-02-09 22:39:16,158 -       INFO - Swipe Right-to-Left
+2018-02-09 22:39:16,158 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 800 100 100 100
+2018-02-09 22:39:18,065 -       INFO - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:39:18,065 -       INFO - --------------------------------------------------
+
+2018-02-09 22:39:24,232 -    ERROR -      core.shell  - 
+Running tests... 
+----------------------------------------------------------------------
+ test001_login (__main__.DemoTest) ... OK (34.074533)s
+ test002_SwipeActions (__main__.DemoTest) ... OK (43.325760)s
+
+----------------------------------------------------------------------
+Ran 2 tests in 0:01:17
+
+OK
+
+
+
+Generating HTML reports... 
+
+2018-02-09 22:40:34,455 -     INFO -      core.shell  - ***Run: C:\Python36\python.exe C:\AppTestFramework\testsuites\test_demo.py --port 4723
+2018-02-09 22:40:36,264 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:41:00,796 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:02,819 -     INFO -           suite  - *** Executing test001_login ***
+2018-02-09 22:41:02,819 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:41:02,819 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c35246fc-1d48-4dea-9c73-b60dfb4847f3/element {"using": "accessibility id", "value": "Main navigation, open", "sessionId": "c35246fc-1d48-4dea-9c73-b60dfb4847f3"}
+2018-02-09 22:41:02,866 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:02,866 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c35246fc-1d48-4dea-9c73-b60dfb4847f3/element/1/click {"id": "1", "sessionId": "c35246fc-1d48-4dea-9c73-b60dfb4847f3"}
+2018-02-09 22:41:03,069 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:03,069 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:41:03,069 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:41:03,069 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c35246fc-1d48-4dea-9c73-b60dfb4847f3/element {"using": "accessibility id", "value": "Sign in,double tap to activate", "sessionId": "c35246fc-1d48-4dea-9c73-b60dfb4847f3"}
+2018-02-09 22:41:04,048 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:04,048 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/c35246fc-1d48-4dea-9c73-b60dfb4847f3/element/2/click {"id": "2", "sessionId": "c35246fc-1d48-4dea-9c73-b60dfb4847f3"}
+2018-02-09 22:41:04,360 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:04,360 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:41:04,360 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text haritheharbinder@gmail.com
+2018-02-09 22:41:07,756 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_TAB
+2018-02-09 22:41:10,303 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text ha@WL223823
+2018-02-09 22:41:13,025 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-09 22:41:15,722 -     INFO -           suite  - *** Executing test001_login completed ***
+2018-02-09 22:41:15,722 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:41:15,722 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/c35246fc-1d48-4dea-9c73-b60dfb4847f3 {"sessionId": "c35246fc-1d48-4dea-9c73-b60dfb4847f3"}
+2018-02-09 22:41:21,159 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:21,190 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-09 22:41:43,768 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:41:45,771 -     INFO -           suite  - *** Executing test002_SwipeActions ***
+2018-02-09 22:41:45,771 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:41:45,771 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 700 500 1200
+2018-02-09 22:41:49,787 -     INFO -           suite  - Swipe Bottom-To-Top
+2018-02-09 22:41:49,787 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-09 22:41:53,850 -     INFO -           suite  - Swipe Left-to-Right
+2018-02-09 22:41:53,850 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 100 100 800 100
+2018-02-09 22:41:57,718 -     INFO -           suite  - Swipe Right-to-Left
+2018-02-09 22:41:57,718 -     INFO -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 800 100 100 100
+2018-02-09 22:41:59,623 -     INFO -           suite  - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:41:59,623 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:41:59,623 -    DEBUG - selenium.webdriver.remote.remote_connection  - DELETE http://127.0.0.1:4723/wd/hub/session/46398d04-f0d2-4839-85cb-835d914d5c69 {"sessionId": "46398d04-f0d2-4839-85cb-835d914d5c69"}
+2018-02-09 22:42:05,351 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-09 22:42:05,507 -     INFO -      core.shell  - 2018-02-09 22:41:02,819 -       INFO - *** Executing test001_login ***
+2018-02-09 22:41:02,819 -       INFO - Open Main navigation
+2018-02-09 22:41:03,069 -       INFO - Opened Main navigation
+2018-02-09 22:41:03,069 -       INFO - Open SIGN IN page
+2018-02-09 22:41:04,360 -       INFO - Opened SIGN IN page
+2018-02-09 22:41:04,360 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text haritheharbinder@gmail.com
+2018-02-09 22:41:07,756 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_TAB
+2018-02-09 22:41:10,303 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text ha@WL223823
+2018-02-09 22:41:13,025 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-09 22:41:15,722 -       INFO - *** Executing test001_login completed ***
+2018-02-09 22:41:15,722 -       INFO - --------------------------------------------------
+2018-02-09 22:41:45,771 -       INFO - *** Executing test002_SwipeActions ***
+2018-02-09 22:41:45,771 -       INFO - Swipe Top-to-Bottom
+2018-02-09 22:41:45,771 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 700 500 1200
+2018-02-09 22:41:49,787 -       INFO - Swipe Bottom-To-Top
+2018-02-09 22:41:49,787 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-09 22:41:53,850 -       INFO - Swipe Left-to-Right
+2018-02-09 22:41:53,850 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 100 100 800 100
+2018-02-09 22:41:57,718 -       INFO - Swipe Right-to-Left
+2018-02-09 22:41:57,718 -       INFO - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 800 100 100 100
+2018-02-09 22:41:59,623 -       INFO - *** Executing test002_SwipeActions completed ***
+2018-02-09 22:41:59,623 -       INFO - --------------------------------------------------
+
+2018-02-09 22:42:05,522 -    ERROR -      core.shell  - 
+Running tests... 
+----------------------------------------------------------------------
+ test001_login (__main__.DemoTest) ... OK (44.926539)s
+ test002_SwipeActions (__main__.DemoTest) ... OK (44.206989)s
+
+----------------------------------------------------------------------
+Ran 2 tests in 0:01:29
+
+OK
+
+
+
+Generating HTML reports... 
+

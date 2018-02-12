@@ -1,0 +1,44 @@
+2018-02-09 22:07:02,619 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:07:03,961 -     INFO -        __main__  - FAIL
+2018-02-09 22:07:28,382 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:07:29,092 -     INFO -        __main__  - FAIL
+2018-02-09 22:07:56,561 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:08:23,581 -     INFO -           suite  - *** Executing test_login ***
+2018-02-09 22:08:23,581 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:08:24,155 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:08:24,155 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:08:25,379 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:08:29,827 -     INFO -           suite  - *** Executing test_login completed ***
+2018-02-09 22:08:29,827 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:08:52,464 -     INFO -           suite  - *** Executing test_scrolling_home_page ***
+2018-02-09 22:09:12,523 -     INFO -           suite  - *** Executing test_scrolling_home_page completed ***
+2018-02-09 22:09:12,523 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:09:12,626 -     INFO -        __main__  - FAIL
+2018-02-09 22:10:14,630 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:10:37,699 -     INFO -           suite  - *** Executing test_login ***
+2018-02-09 22:10:37,699 -     INFO -        lib.ebay  - Open Main navigation
+2018-02-09 22:10:38,058 -     INFO -        lib.ebay  - Opened Main navigation
+2018-02-09 22:10:38,058 -     INFO -        lib.ebay  - Open SIGN IN page
+2018-02-09 22:10:39,230 -     INFO -        lib.ebay  - Opened SIGN IN page
+2018-02-09 22:10:44,568 -     INFO -           suite  - *** Executing test_login completed ***
+2018-02-09 22:10:44,568 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:11:08,730 -     INFO -           suite  - *** Executing test_scrolling_home_page ***
+2018-02-09 22:11:29,734 -     INFO -           suite  - *** Executing test_scrolling_home_page completed ***
+2018-02-09 22:11:29,734 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:11:29,859 -     INFO -        __main__  - FAIL
+2018-02-09 22:14:39,302 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:14:40,130 -     INFO -        __main__  - FAIL
+2018-02-09 22:14:55,210 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:15:19,398 -     INFO -           suite  - *** Executing test_scrolling_home_page ***
+2018-02-09 22:15:21,007 -     INFO -           suite  - *** Executing test_scrolling_home_page completed ***
+2018-02-09 22:15:21,007 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:15:25,862 -     INFO -        __main__  - PASS
+2018-02-09 22:19:56,747 -     INFO -        __main__  - **** Starting App Test Framework ****
+2018-02-09 22:20:18,135 -     INFO -           suite  - *** Executing test_scrolling_home_page ***
+2018-02-09 22:20:20,135 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:20:23,719 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:20:27,290 -     INFO -           suite  - Swipe Top-to-Bottom
+2018-02-09 22:20:30,743 -     INFO -           suite  - Swipe Right-to-Bottom
+2018-02-09 22:20:34,228 -     INFO -           suite  - *** Executing test_scrolling_home_page completed ***
+2018-02-09 22:20:34,228 -     INFO -           suite  - --------------------------------------------------
+2018-02-09 22:20:38,623 -     INFO -        __main__  - PASS

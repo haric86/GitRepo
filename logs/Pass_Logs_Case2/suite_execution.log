@@ -1,0 +1,114 @@
+2018-02-15 02:20:53,883 -    DEBUG -      core.shell  - ***Run: C:\Python36\python.exe C:\AppTestFramework\testsuites\test_demo.py --port 4723
+2018-02-15 02:20:55,589 -     INFO -           suite  - ----------------------------------------------------------
+2018-02-15 02:20:55,590 -     INFO -           suite  - -------------- Main function call invoked ----------------
+2018-02-15 02:20:55,590 -     INFO -      core.shell  - 2018-02-15 02:20:55,589 -     INFO - ----------------------------------------------------------
+2018-02-15 02:20:55,591 -     INFO -           suite  - ----------------------------------------------------------
+2018-02-15 02:20:55,591 -     INFO -      core.shell  - 2018-02-15 02:20:55,590 -     INFO - -------------- Main function call invoked ----------------
+2018-02-15 02:20:55,591 -     INFO -      core.shell  - 2018-02-15 02:20:55,591 -     INFO - ----------------------------------------------------------
+2018-02-15 02:20:55,618 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-15 02:20:55,619 -     INFO -      core.shell  - 2018-02-15 02:20:55,618 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6.0.1", "deviceName": "Google Nexus 5", "appPackage": "com.ebay.mobile", "appActivity": "com.ebay.mobile.activities.MainActivity", "appWaitPackage": "com.ebay.mobile", "appWaitDuration": 30000, "noReset": "true", "fullReset": "false", "newCommandTimeout": 900, "udid": "0689fcced0b3613d"}}
+2018-02-15 02:21:17,858 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:17,860 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:17,859 -     INFO -      core.shell  - 2018-02-15 02:21:17,858 -    DEBUG - Finished Request
+2018-02-15 02:21:17,861 -     INFO -      core.shell  - 2018-02-15 02:21:17,860 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:17,877 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:17,878 -     INFO -           suite  - *** Executing test001_add_to_cart ***
+2018-02-15 02:21:17,879 -     INFO -           suite  - Search for product [Google Nexus 5]
+2018-02-15 02:21:17,879 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "com.ebay.mobile:id/search_box", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:17,878 -     INFO -      core.shell  - 2018-02-15 02:21:17,877 -    DEBUG - Finished Request
+2018-02-15 02:21:17,882 -     INFO -      core.shell  - 2018-02-15 02:21:17,878 -     INFO - *** Executing test001_add_to_cart ***
+2018-02-15 02:21:17,883 -     INFO -      core.shell  - 2018-02-15 02:21:17,879 -     INFO - Search for product [Google Nexus 5]
+2018-02-15 02:21:17,884 -     INFO -      core.shell  - 2018-02-15 02:21:17,879 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "com.ebay.mobile:id/search_box", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:18,270 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:18,271 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/1/click {"id": "1", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:18,270 -     INFO -      core.shell  - 2018-02-15 02:21:18,270 -    DEBUG - Finished Request
+2018-02-15 02:21:18,285 -     INFO -      core.shell  - 2018-02-15 02:21:18,271 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/1/click {"id": "1", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:18,660 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:18,661 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text "Google%sNexus%s5"
+2018-02-15 02:21:18,660 -     INFO -      core.shell  - 2018-02-15 02:21:18,660 -    DEBUG - Finished Request
+2018-02-15 02:21:18,662 -     INFO -      core.shell  - 2018-02-15 02:21:18,661 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input text "Google%sNexus%s5"
+2018-02-15 02:21:20,108 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-15 02:21:20,108 -     INFO -      core.shell  - 2018-02-15 02:21:20,108 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input keyevent KEYCODE_ENTER
+2018-02-15 02:21:22,961 -     INFO -           suite  - Select first item from the results
+2018-02-15 02:21:22,961 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:22,961 -     INFO -      core.shell  - 2018-02-15 02:21:22,961 -     INFO - Select first item from the results
+2018-02-15 02:21:22,962 -     INFO -      core.shell  - 2018-02-15 02:21:22,961 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:24,998 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:24,998 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/2/click {"id": "2", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:24,998 -     INFO -      core.shell  - 2018-02-15 02:21:24,998 -    DEBUG - Finished Request
+2018-02-15 02:21:25,009 -     INFO -      core.shell  - 2018-02-15 02:21:24,998 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/2/click {"id": "2", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:25,158 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:25,159 -     INFO -           suite  - Click on Buy button
+2018-02-15 02:21:25,160 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "accessibility id", "value": "Buy It Now", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:25,159 -     INFO -      core.shell  - 2018-02-15 02:21:25,158 -    DEBUG - Finished Request
+2018-02-15 02:21:25,163 -     INFO -      core.shell  - 2018-02-15 02:21:25,159 -     INFO - Click on Buy button
+2018-02-15 02:21:25,166 -     INFO -      core.shell  - 2018-02-15 02:21:25,160 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "accessibility id", "value": "Buy It Now", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:28,471 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:28,471 -     INFO -      core.shell  - 2018-02-15 02:21:28,471 -    DEBUG - Finished Request
+2018-02-15 02:21:28,472 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/3/click {"id": "3", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:28,472 -     INFO -      core.shell  - 2018-02-15 02:21:28,472 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/3/click {"id": "3", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:29,477 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:29,478 -     INFO -      core.shell  - 2018-02-15 02:21:29,477 -    DEBUG - Finished Request
+2018-02-15 02:21:29,478 -     INFO -           suite  - Click on Review button
+2018-02-15 02:21:29,479 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "com.ebay.mobile:id/take_action", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:29,479 -     INFO -      core.shell  - 2018-02-15 02:21:29,478 -     INFO - Click on Review button
+2018-02-15 02:21:29,480 -     INFO -      core.shell  - 2018-02-15 02:21:29,479 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "com.ebay.mobile:id/take_action", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:29,628 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:29,628 -     INFO -      core.shell  - 2018-02-15 02:21:29,628 -    DEBUG - Finished Request
+2018-02-15 02:21:29,629 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/4/click {"id": "4", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:29,629 -     INFO -      core.shell  - 2018-02-15 02:21:29,629 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/4/click {"id": "4", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:29,845 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:29,845 -     INFO -      core.shell  - 2018-02-15 02:21:29,845 -    DEBUG - Finished Request
+2018-02-15 02:21:29,845 -     INFO -           suite  - Scroll UP the page to view [Proceed to Pay] button
+2018-02-15 02:21:29,846 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:29,846 -     INFO -      core.shell  - 2018-02-15 02:21:29,845 -     INFO - Scroll UP the page to view [Proceed to Pay] button
+2018-02-15 02:21:29,846 -     INFO -      core.shell  - 2018-02-15 02:21:29,846 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:31,495 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:31,495 -     INFO -      core.shell  - 2018-02-15 02:21:31,495 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:33,259 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:33,260 -     INFO -      core.shell  - 2018-02-15 02:21:33,259 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:34,921 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:34,921 -     INFO -      core.shell  - 2018-02-15 02:21:34,921 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:36,789 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:36,789 -     INFO -      core.shell  - 2018-02-15 02:21:36,789 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:38,757 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:38,757 -     INFO -      core.shell  - 2018-02-15 02:21:38,757 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:40,391 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:40,391 -     INFO -      core.shell  - 2018-02-15 02:21:40,391 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:42,232 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:42,232 -     INFO -      core.shell  - 2018-02-15 02:21:42,232 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:44,088 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:44,088 -     INFO -      core.shell  - 2018-02-15 02:21:44,088 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:45,899 -    DEBUG -      core.shell  - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:45,899 -     INFO -      core.shell  - 2018-02-15 02:21:45,899 -    DEBUG - ***Run: C:\Android_Appium\platform-tools\adb.exe shell input swipe 500 1200 500 700
+2018-02-15 02:21:47,901 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "proceedToPay", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:47,901 -     INFO -      core.shell  - 2018-02-15 02:21:47,901 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element {"using": "id", "value": "proceedToPay", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:48,132 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:48,132 -     INFO -      core.shell  - 2018-02-15 02:21:48,132 -    DEBUG - Finished Request
+2018-02-15 02:21:48,133 -    DEBUG - selenium.webdriver.remote.remote_connection  - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/5/click {"id": "5", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:48,133 -     INFO -      core.shell  - 2018-02-15 02:21:48,133 -    DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/element/5/click {"id": "5", "sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:48,476 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:21:48,476 -     INFO -      core.shell  - 2018-02-15 02:21:48,476 -    DEBUG - Finished Request
+2018-02-15 02:21:58,476 -     INFO -           suite  - Take screenshot of various payment options
+2018-02-15 02:21:58,476 -     INFO -      core.shell  - 2018-02-15 02:21:58,476 -     INFO - Take screenshot of various payment options
+2018-02-15 02:21:58,476 -    DEBUG - selenium.webdriver.remote.remote_connection  - GET http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/screenshot {"sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:21:58,476 -     INFO -      core.shell  - 2018-02-15 02:21:58,476 -    DEBUG - GET http://127.0.0.1:4723/wd/hub/session/0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287/screenshot {"sessionId": "0b8eee7e-6bdb-49f8-a87a-dc5a1a9b4287"}
+2018-02-15 02:22:17,089 -    DEBUG - selenium.webdriver.remote.remote_connection  - Finished Request
+2018-02-15 02:22:17,090 -     INFO -      core.shell  - 2018-02-15 02:22:17,089 -    DEBUG - Finished Request
+2018-02-15 02:22:17,095 -     INFO -           suite  - *** Executing test001_add_to_cart completed ***
+2018-02-15 02:22:17,096 -     INFO -           suite  - --------------------------------------------------
+2018-02-15 02:22:17,095 -     INFO -      core.shell  - 2018-02-15 02:22:17,095 -     INFO - *** Executing test001_add_to_cart completed ***
+2018-02-15 02:22:17,096 -     INFO -      core.shell  - 2018-02-15 02:22:17,096 -     INFO - --------------------------------------------------
+2018-02-15 02:22:17,207 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,213 -     INFO -      core.shell  - Running tests...
+2018-02-15 02:22:17,213 -     INFO -      core.shell  - ----------------------------------------------------------------------
+2018-02-15 02:22:17,214 -     INFO -      core.shell  -  test001_add_to_cart (__main__.DemoTest) ... OK (81.504129)s
+2018-02-15 02:22:17,215 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,216 -     INFO -      core.shell  - ----------------------------------------------------------------------
+2018-02-15 02:22:17,217 -     INFO -      core.shell  - Ran 1 test in 0:01:21
+2018-02-15 02:22:17,217 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,218 -     INFO -      core.shell  - OK
+2018-02-15 02:22:17,219 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,219 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,220 -     INFO -      core.shell  - 
+2018-02-15 02:22:17,220 -     INFO -      core.shell  - Generating HTML reports...
